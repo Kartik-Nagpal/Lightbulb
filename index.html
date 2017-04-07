@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="Test.css"/>
+		<script src=""></script>
 		<title>Light Bulb</title>
 	</head>
 	<body>
@@ -11,14 +12,13 @@
 		<script>
 		function switchImage()
 		{
-			console.log("SRC = " + document.getElementById("myImage").src);
-			if(document.getElementById("myImage").src === "On.jpg")
+			if(document.getElementById("myImage").src === "https://kartik-nagpal.github.io/Lightbulb/On.jpg")
 			{
-				document.getElementById("myImage").src = 'Off.jpg';
+				document.getElementById("myImage").src = 'https://kartik-nagpal.github.io/Lightbulb/Off.jpg';
 			}
 			else
 			{
-				document.getElementById("myImage").src = 'On.jpg';
+				document.getElementById("myImage").src = 'https://kartik-nagpal.github.io/Lightbulb/On.jpg';
 			}
 		}
 		</script>
