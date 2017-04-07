@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="Test.css"/>
+		<title>Light Bulb</title>
+	</head>
+	<body>
+		<h1>A light in the dark?</h1>
+		<img id="myImage" onclick="switchImage()" src="On.jpg" />
+
+		<script>
+		function switchImage()
+		{
+			if(document.getElementById("myImage").src == "file:///H:/HTML/On.jpg")
+			{
+				document.getElementById("myImage").src = 'Off.jpg';
+			}
+			else
+			{
+				document.getElementById("myImage").src = 'On.jpg';
+			}
+		}
+		</script>
+	</body>
+</html>
