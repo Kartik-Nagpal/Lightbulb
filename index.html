@@ -11,7 +11,8 @@
 		<script>
 		function switchImage()
 		{
-			if(document.getElementById("myImage").src == "On.jpg")
+			console.log("SRC = " + document.getElementById("myImage").src);
+			if(document.getElementById("myImage").src === "On.jpg")
 			{
 				document.getElementById("myImage").src = 'Off.jpg';
 			}
